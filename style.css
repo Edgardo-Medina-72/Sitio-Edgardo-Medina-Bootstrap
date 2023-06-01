@@ -11,12 +11,31 @@ html {
   --blanco2: #f7f7f5;
   --naranja: #c79c55;
   --rosa: #f6e5f3;
-  --maseta: #a95a43;
+  --maceta: #a95a43;
 }
-
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--rosa);
+}
+.logo {
+  width: 100px;
+  margin-left: 12px;
+}
+.iconHamm {
+  width: 60px;
+  margin-right: 12px;
+}
+.divHeader {
+  height: 400px;
+  background: url(./Paleta\ de\ colores.PNG) 50% 0 fixed;
+  background-size: cover;
+}
 main {
   width: 100vw;
-  height: 1300px;
+  height: 400px;
   background: linear-gradient(to right, var(--blanco1), var(--blanco2));
 }
 /* Pie de pagina */
