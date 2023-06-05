@@ -24,7 +24,7 @@ html {
 }
 #nosotros {
   height: 400px;
-  background: url(./Placard.jpeg) 50% 30% fixed;
+  background: url(./assets/Placard.jpeg) 50% 30% fixed;
   background-size: cover;
 }
 main {
@@ -32,7 +32,7 @@ main {
 }
 footer {
   height: 500px;
-  background: url(./tablas-quemadas.jpg) 50% 50% fixed;
+  background: url(./assets/tablas-quemadas.jpg) 50% 50% fixed;
   background-size: cover;
 }
 /* Flecha */
@@ -50,7 +50,7 @@ footer {
   opacity: 1;
 }
 .navbar-toggler-icon {
-  background-image: url(./pngeggFill.png);
+  background-image: url(./assets/pngeggFill.png);
 }
 .bg-light {
   background-color: var(--rosa) !important;
