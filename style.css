@@ -55,3 +55,6 @@ footer {
 .bg-light {
   background-color: var(--rosa) !important;
 }
+.tab:hover {
+  border: thin solid gray !important;
+}
