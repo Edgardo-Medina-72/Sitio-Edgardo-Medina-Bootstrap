@@ -6,7 +6,7 @@ window.onscroll = () => {
   }
 };
 
-const $form = document.querySelector("#form");
+/* const $form = document.querySelector("#form");
 
 $form.addEventListener("submit", handleSubmit);
 
@@ -25,4 +25,4 @@ async function handleSubmit(event) {
     this.reset();
     alert("Gracias");
   }
-}
+} */
