@@ -16,7 +16,7 @@ html {
   width: 60px;
 }
 #nosotros {
-  height: 400px;
+  /* height: 400px; */
   background: url(./assets/Placard.jpeg) 50% 30% fixed;
   background-size: cover;
 }
