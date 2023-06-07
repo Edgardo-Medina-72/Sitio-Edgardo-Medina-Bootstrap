@@ -1,14 +1,7 @@
 html {
   scroll-behavior: smooth;
-  box-sizing: border-box;
 }
-*,
-*:before,
-*:after {
-  padding: 0;
-  margin: 0;
-  box-sizing: inherit;
-}
+
 :root {
   --blanco1: #ededeb;
   --blanco2: #f7f7f5;
@@ -26,9 +19,6 @@ html {
   height: 400px;
   background: url(./assets/Placard.jpeg) 50% 30% fixed;
   background-size: cover;
-}
-main {
-  height: 800px;
 }
 footer {
   height: 500px;
@@ -57,4 +47,7 @@ footer {
 }
 .tab:hover {
   border: thin solid gray !important;
+}
+.titulo {
+  color: #072af5 !important;
 }

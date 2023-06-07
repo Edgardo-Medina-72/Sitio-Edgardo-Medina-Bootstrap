@@ -3,9 +3,9 @@ function temaDia() {
   document.querySelector("nav").classList.remove("navbar-dark", "bg-dark");
   document.querySelector("nav").classList.add("navbar-light", "bg-light");
   console.log("dia");
-  /* document
-    .querySelectorAll("#marco")
-    .forEach((mrc) => mrc.classList.add("marcoDia")); */
+  document
+    .querySelectorAll("main")
+    .forEach((main) => main.classList.remove("bg-dark", "text-white"));
   /* document
     .querySelectorAll("#relleno")
     .forEach((rlln) => rlln.classList.add("rellenoDia")); */
@@ -22,9 +22,9 @@ function temaNoche() {
   document.querySelector("nav").classList.add("navbar-dark", "bg-dark");
   document.querySelector("nav").classList.remove("navbar-light", "bg-light");
   console.log("noche");
-  /* document
-    .querySelectorAll("#marco")
-    .forEach((mrc) => mrc.classList.remove("marcoDia")); */
+  document
+    .querySelectorAll("main")
+    .forEach((main) => main.classList.add("bg-dark", "text-white"));
   /* document
     .querySelectorAll("#relleno")
     .forEach((rlln) => rlln.classList.remove("rellenoDia")); */
