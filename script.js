@@ -5,3 +5,8 @@ window.onscroll = () => {
     document.querySelector(".contenedor").classList.remove("mostrar");
   }
 };
+
+function ocultarNavbar() {
+  document.querySelector(".ocultarNb").classList.remove("show");
+  //console.log("ocultar");
+}

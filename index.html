@@ -15,6 +15,10 @@
       href="./assets/icono-sitio.png"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Sitio Web con Bootstrap</title>
   </head>
@@ -41,23 +45,39 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-lg-end"
+            class="ocultarNb collapse navbar-collapse justify-content-lg-end"
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav nav-tabs mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link tab" href="#produccion">Producción</a>
+                <a
+                  class="nav-link tab"
+                  href="#produccion"
+                  onclick="ocultarNavbar()"
+                  >Producción</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link tab" href="#carrousel">Galeria</a>
+                <a
+                  class="nav-link tab"
+                  href="#carrousel"
+                  onclick="ocultarNavbar()"
+                  >Galeria</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link tab" aria-current="page" href="#nosotros"
+                <a
+                  class="nav-link tab"
+                  aria-current="page"
+                  href="#nosotros"
+                  onclick="ocultarNavbar()"
                   >Sobre Nosotros</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link tab" href="#form">Contacto</a>
+                <a class="nav-link tab" href="#form" onclick="ocultarNavbar()"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -75,7 +95,11 @@
                   aria-labelledby="navbarDropdown"
                 >
                   <li>
-                    <button id="dia" class="dropdown-item" onclick="temaDia()">
+                    <button
+                      id="dia"
+                      class="dropdown-item"
+                      onclick="temaDia(), ocultarNavbar()"
+                    >
                       Dia
                     </button>
                   </li>
@@ -83,7 +107,7 @@
                     <button
                       id="noche"
                       class="dropdown-item"
-                      onclick="temaNoche()"
+                      onclick="temaNoche(), ocultarNavbar()"
                     >
                       Noche
                     </button>
@@ -91,7 +115,7 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex col-4">
+            <!-- <form class="d-flex col-4">
               <input
                 class="form-control me-2"
                 type="search"
@@ -101,18 +125,20 @@
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> -->
           </div>
         </div>
       </nav>
       <div id="nosotros" class="row bg-transparent">
         <div class="titulo col text-danger text-center lh-sm fs-1">
-          ¡Bienvenidos a nuestra empresa de venta de muebles de madera!
-          <br />Nos enorgullece presentarles una empresa joven y dinámica que ha
-          estado operando con éxito en el mercado de los muebles de madera
-          durante los últimos dos años. Desde nuestro inicio, nos hemos centrado
-          en ofrecer productos de alta calidad y brindar un servicio excepcional
-          a nuestros clientes.
+          <p>
+            ¡Bienvenidos a nuestra empresa de venta de muebles de madera!
+            <br />Nos enorgullece presentarles una empresa joven y dinámica que
+            ha estado operando con éxito en el mercado de los muebles de madera
+            durante los últimos dos años. Desde nuestro inicio, nos hemos
+            centrado en ofrecer productos de alta calidad y brindar un servicio
+            excepcional a nuestros clientes.
+          </p>
         </div>
       </div>
     </header>
@@ -276,11 +302,11 @@
       </section>
     </main>
     <footer class="container-fluid bg-transparent">
-      <h2 class="row">Formulario</h2>
+      <h2 class="row fw-bold fs-1">Formulario</h2>
       <div class="row">
         <form
           id="form"
-          class="row g-3"
+          class="row g-3 mb-4"
           data-netlify="true"
           action="#"
           method="POST"
@@ -331,8 +357,11 @@
           </div>
         </form>
       </div>
-      <div class="row h-25">
-        <p>Pie de pagina con datos del sitio y autoria</p>
+      <div class="row text-white">
+        <h2 class="">Contactanos por nuestras redes sociales</h2>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-twitter"></i></a>
       </div>
       <!-- Flecha -->
       <a href="#top">

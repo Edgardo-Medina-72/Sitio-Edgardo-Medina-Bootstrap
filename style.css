@@ -4,10 +4,11 @@ html {
 
 :root {
   --blanco1: #ededeb;
-  --blanco2: #f7f7f5;
+  --gris: #808080;
   --naranja: #c79c55;
   --rosa: #f6e5f3;
   --maceta: #a95a43;
+  --azul: #072af5;
 }
 .logo {
   width: 100px;
@@ -16,28 +17,12 @@ html {
   width: 60px;
 }
 #nosotros {
-  /* height: 400px; */
   background: url(./assets/Placard.jpeg) 50% 0% fixed;
   background-size: cover;
 }
 footer {
-  height: 500px;
   background: url(./assets/tablas-quemadas.jpg) 50% 50% fixed;
   background-size: cover;
-}
-/* Flecha */
-.contenedor {
-  width: 50px;
-  height: 50px;
-  background-color: #a95a43;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 99;
-  opacity: 0;
-}
-.mostrar {
-  opacity: 1;
 }
 .navbar-toggler-icon {
   background-image: url(./assets/pngeggFill.png);
@@ -46,8 +31,22 @@ footer {
   background-color: var(--rosa) !important;
 }
 .tab:hover {
-  border: thin solid gray !important;
+  border: thin solid var(--gris) !important;
 }
 .titulo {
-  color: #072af5 !important;
+  color: var(--azul) !important;
+}
+/* Flecha */
+.contenedor {
+  width: 50px;
+  height: 50px;
+  background-color: var(--maceta);
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 99;
+  opacity: 0;
+}
+.mostrar {
+  opacity: 1;
 }
