@@ -30,12 +30,13 @@
     <header class="container-fluid">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
             <img
               class="logo img-fluid"
               src="./assets/Logo.PNG"
               alt="Logo de empresa"
             />
+            <p class="ms-5 fs-1">Muebles a Medida</p>
           </a>
           <button
             class="navbar-toggler"
@@ -46,6 +47,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
+            MENU
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
@@ -234,35 +236,64 @@
           </div>
         </div>
       </section>
+      <!-- ----------------------------- -->
       <h2 id="carrousel" class="text-center fw-bold fst-italic fs-1 shadow">
         Algunos de nuestros productos
       </h2>
-      <section class="row h-50 justify-content-sm-evenly">
-        <!-- ----------------------------- -->
+      <section class="row text-center">
         <div
           id="carouselExampleCaptions"
           class="carousel slide mb-4"
           data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
+          <div class="carousel-inner h-100">
             <!-- <div class="carousel-item active"> -->
             <div class="carousel-item active">
-              <div class="card w-25">
+              <div class="h-100">
                 <img
-                  src="./assets/Botellero.jpeg"
-                  class="d-block w-100"
+                  src="./assets/Alacena.jpeg"
+                  class="w-50 rounded"
+                  alt="Alacena"
+                />
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Alacena madera de Paraiso</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="h-100">
+                <img
+                  src="./assets/Despensero.jpeg"
+                  class="w-25 rounded"
+                  alt="Despensero"
+                />
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Despensero en madera de pino</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <img
+                  src="./assets/Copero-1.jpg"
+                  class="col w-25 rounded"
+                  alt="Copero"
+                />
+                <img
+                  src="./assets/Copero-2.jpeg"
+                  class="col w-25 rounded"
                   alt="Copero"
                 />
               </div>
               <div class="carousel-caption d-none d-md-block">
-                <h5>Copero madera de pino</h5>
+                <h5>Copero en madera de pino</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card h-100">
+              <div class="h-100">
                 <img
                   src="./assets/Soporte-televisor.jpeg"
-                  class="d-block w-100"
+                  class="w-100"
                   alt="Soporte televisor"
                 />
               </div>
@@ -271,15 +302,15 @@
               </div>
             </div>
             <div class="carousel-item">
-              <div class="card h-100">
+              <div class="h-100">
                 <img
                   src="./assets/Bajo-mesada.jpeg"
-                  class="d-block w-100"
+                  class="w-100"
                   alt="Bajo mesada"
                 />
               </div>
               <div class="carousel-caption d-none d-md-block">
-                <h5>Bajo mesada de madera de pino</h5>
+                <h5>Bajo mesada en madera de pino</h5>
               </div>
             </div>
           </div>
